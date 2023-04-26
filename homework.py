@@ -114,11 +114,11 @@ class Swimming(Training):
                  action: int,
                  duration: float,
                  weight: float,
-                 lenght_pool: int,
+                 length_pool: int,
                  count_pool: int
                  ) -> None:
         super().__init__(action, duration, weight)
-        self.lenght_pool = lenght_pool
+        self.lenght_pool = length_pool
         self.count_pool = count_pool
 
     def get_spent_calories(self) -> float:
